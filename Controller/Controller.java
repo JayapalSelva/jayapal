@@ -19,7 +19,7 @@ public class Controller {
 	@Autowired
 	service carser;
 	
-	@PostMapping("/caradd")
+	@PostMapping("/caradded")
 	public String add(@RequestBody Car c) {
 	return carser.add(c);
 	}
